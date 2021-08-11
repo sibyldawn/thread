@@ -8,10 +8,10 @@ app.use(bodyParser.json());
 
 
 /* CRUD for Collection */
-app.get('/api/recipes', con.read);
+app.get('/allPosts', con.read);
+app.get('/:postId/comments', con.comments);
 app.post('/api/recipes', con.create);
-app.put('/api/recipes', con.update);
-app.delete('/api/recipes/:id', con.delete);
+
 
 
 const port = 4000;

@@ -1,4 +1,5 @@
-const fetch = require(node-fetch)
+const fetch = require('node-fetch')
+const API_URL="https://jsonplaceholder.typicode.com/"
 
 
 
@@ -21,6 +22,10 @@ module.exports = {
        response.status(200).json(recipes);
     },
     read: (request,response)=>{
+        response.status(200).send(recipes);
+    },
+    comments: (request,response)=>{
+        const {name,email,image} = request.body;
         response.status(200).send(recipes);
     }
 }

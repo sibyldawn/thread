@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Feed from './components/Feed'
+import Post from './components/Post'
+import 'semantic-ui-css/semantic.min.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,10 +22,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
+              <Link to="/:postId/comments">Post</Link>
             </li>
           </ul>
         </nav>
@@ -30,14 +30,11 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
           <Route path="/">
-            <Home />
+            <Feed/>
+          </Route>
+          <Route path="/:postId/comments">
+            <Post />
           </Route>
         </Switch>
       </div>

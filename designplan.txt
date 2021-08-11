@@ -21,7 +21,7 @@ Routes
 Components
 
 Header - Back Button
-5 posts - Tourist spots
+5 posts, 1 user post 2x - Tourist spots
 each post 3 comments 
 
 API
