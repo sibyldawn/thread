@@ -23,6 +23,14 @@
         "author":"Mona Corona",
         "body":"What this small French Polynesian island may lack in size it makes up for in sheer tropical beauty. Here, you'll find picturesque beaches, lush jungles and luxurious resorts. The island's dormant volcano, Mount Otemanu, makes for a great photo-op or challenging hike, and the friendly Bora Bora locals can help you catch a glimpse of the island's best sights during an off-road excursion. To relax, head to Matira Beach for crystal-clear water and soft sand. Although a trip to Bora Bora is very expensive, most travelers say it's worth every penny.",
         "image":"https://travel.usnews.com/dims4/USNEWS/472cf27/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/borabora_445x280_dtTOVY1.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Maui",
+        "authorId":"2",
+        "author":"Mona Corona",
+        "body":"Whether you're driving along the Road to Hana, enjoying a bird's-eye view of the lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on the Hawaiian island's honey- or black-colored beaches, you'll find that Maui is unlike any other tropical destination. Don't miss a chance to visit Haleakala National Park, which is home to the world's largest dormant volcano. You should also attend a luau for a dose of local culture and a taste of Hawaiian specialties like poi, poke and mahimahi.",
+        "image":"https://travel.usnews.com/dims4/USNEWS/070489a/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/GettyImages-117211856_TeGITRy.jpg"
       }
     ],
     "comments": [
@@ -67,6 +75,62 @@
         "name":"Vera Hare",
         "email":"verahare@gmail.com",
         "postId": 3
-      }
+      },
+      {
+        "id": 7,
+        "body": "Which hotel do you recommend in Maui?",
+        "name":"Oliver Patrick",
+        "email":"oliverpatrick@gmail.com",
+        "postId": 4
+      } ,
+      {
+       "id": 8,
+      "body": "Isn't this where they filmed The Lord of the Rings?",
+      "name":"Harry Dean",
+      "email":"harrydean@gmail.com",
+      "postId": 1
+    },
+    {
+      "id": 9,
+      "body": "Amazing destination!",
+      "name":"Hollie Joe",
+      "email":"holliejoe@gmail.com",
+      "postId": 1
+    },
+    {
+      "id": 10,
+      "body": "Bringin my kids there this coming spring break",
+      "name":"Danny Beck",
+      "email":"dannybeck@gmail.com",
+      "postId": 2
+    },
+      {
+      "id": 11,
+      "body": "I can't wait to see enjoy Bora Bora!",
+      "name":"Neil Lane",
+      "email":"neillane@gmail.com",
+      "postId": 3
+    },
+    {
+      "id": 12,
+      "body": "Are there any day passes that we could purchase? Trying to stay on budget.",
+      "name":"Owen Hart",
+      "email":"ownehart@gmail.com",
+      "postId": 2
+    },
+    {
+      "id": 13,
+      "body": "Someday I'll visit this place.",
+      "name":"Macy Vaughn",
+      "email":"macyvaughn@gmail.com",
+      "postId": 3
+    },
+    {
+      "id": 14,
+      "body": "Family friendly indeed.",
+      "name":"Harry Stone",
+      "email":"harrystone@gmail.com",
+      "postId": 4
+    }
     ]
   }
