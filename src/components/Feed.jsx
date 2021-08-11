@@ -45,6 +45,9 @@ const Feed = () =>  {
 
   return (
     <div className="AppContainer">
+       <Typography gutterBottom variant="h4" component="h4">
+           Travel Destinations
+          </Typography>
       {data.map((post,i)=>{
         return (<Grid container
           direction="row"
