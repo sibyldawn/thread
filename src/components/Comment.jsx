@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import useAxios from 'axios-hooks'
-const baseURL = 'https://jsonplaceholder.typicode.com'
+const baseURL = 'https://my-json-server.typicode.com/sibyldawn/thread'
 
 const useStyles = makeStyles({
   root: {
@@ -22,6 +22,9 @@ const useStyles = makeStyles({
   pos: {
     marginBottom: 12,
   },
+  paper:{
+    textAlign:"left"
+  }
 });
 
 export default function Comment({postId}) {
@@ -44,7 +47,7 @@ export default function Comment({postId}) {
           <Grid item xs={8}>
             <Paper className={classes.paper} key={i}>
               <strong>{comment.name}</strong>
-              <h5>{comment.email}</h5>
+              <span>({comment.email})</span>
               <p>{comment.body}</p>
             </Paper>
           </Grid>

@@ -4,18 +4,31 @@ import useAxios from 'axios-hooks'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { useHistory } from "react-router-dom";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
 
-const baseURL = 'https://jsonplaceholder.typicode.com/sibyldawn/thread'
+const baseURL = 'https://my-json-server.typicode.com/sibyldawn/thread'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+  grid:{
+    marginTop: 20
+  },
   paper: {
     padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+  },
+  media: {
+    height: 400,
   }
 }));
 
@@ -37,11 +50,28 @@ const Feed = () =>  {
           direction="row"
           justifyContent="center"
           alignItems="center"
-          spacing={3}>
+          spacing={3}
+          className={classes.grid}>
           <Grid item xs={8} onClick={()=>history.push(`/posts/${post.id}`)}>
-            <Paper className={classes.paper} key={i}>
-              <h4>{post.title}</h4>
-            </Paper>
+          <Card className={classes.root}>
+          <CardActionArea>
+          <CardMedia
+          className={classes.media}
+          image={post.image}
+          title={post.title}
+         />
+         <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+           {post.title}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary" onClick={()=>history.push(`/posts/${post.id}`)}>
+          Comments
+        </Button>
+      </CardActions>
+    </Card>
           </Grid>
           </Grid>
       )})
