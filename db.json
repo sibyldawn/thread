@@ -2,35 +2,71 @@
     "posts": [
       {
         "id": 1,
-        "title": "Post 1",
-        "author":"Guy"
+        "title": "South Island, New Zealand",
+        "authorId":"1",
+        "author":"L. Gulliver",
+        "body":"New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to fjords to glaciers. Here, you can admire the mountains of Fiordland National Park, a UNESCO World Heritage Site, from hiking trails or a boat on Milford Sound. At night, journey to the University of Canterbury's Mount John Observatory to gaze at the starry skies. You can also indulge your inner daredevil in Queenstown, explore two of the most accessible glaciers in the world on the island's west coast or sample delicious food and wine in the Marlborough region.",
+        "image":"https://travel.usnews.com/dims4/USNEWS/a798492/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/edited_south_island_nz_getty_irma_ferreira_445x280_dxgXWlc.jpg"
       },
       {
         "id": 2,
-        "title": "Post 2",
-        "author":"Guy"
+        "title": "Paris",
+        "authorId":"1",
+        "author":"L. Gulliver",
+        "body":"The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi charm. Get lost wandering along Paris' cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours. If you're up for a quick daytrip, head about 15 miles southwest of the city center to another must-see attraction: the Palace of Versailles.",
+        "image":"https://travel.usnews.com/dims4/USNEWS/c5a8f6d/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/gettyimages-532590277_2ZNe4ra.jpg"
       },
       {
         "id": 3,
-        "title": "Post 3",
-        "author":"Guy2"
+        "title": "Bora Bora",
+        "authorId":"2",
+        "author":"Mona Corona",
+        "body":"What this small French Polynesian island may lack in size it makes up for in sheer tropical beauty. Here, you'll find picturesque beaches, lush jungles and luxurious resorts. The island's dormant volcano, Mount Otemanu, makes for a great photo-op or challenging hike, and the friendly Bora Bora locals can help you catch a glimpse of the island's best sights during an off-road excursion. To relax, head to Matira Beach for crystal-clear water and soft sand. Although a trip to Bora Bora is very expensive, most travelers say it's worth every penny.",
+        "image":"https://travel.usnews.com/dims4/USNEWS/472cf27/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/borabora_445x280_dtTOVY1.jpg"
       }
     ],
     "comments": [
       {
         "id": 1,
-        "body": "some comment",
+        "body": "I enjoyed reading your article about New Zealand!",
+        "name":"Larry Lin",
+        "email":"larrylin@gmail.com",
         "postId": 1
       },
       {
         "id": 2,
-        "body": "some comment",
+        "body": "When is the best time to visit?",
+        "name":"Ava Wright",
+        "email":"avawright@gmail.com",
         "postId": 1
       },
       {
         "id": 3,
-        "body": "different comment",
+        "body": "I can't wait to go!",
+        "name":"Ava Wright",
+        "email":"avawright@gmail.com",
         "postId": 2
+      },
+        {
+        "id": 4,
+        "body": "Are there any budget friendly hotels there?",
+        "name":"Noah Walker",
+        "email":"noahwalker@gmail.com",
+        "postId": 3
+      },
+      {
+        "id": 5,
+        "body": "Tres Bien!",
+        "name":"Glen Rouse",
+        "email":"glenrouse@gmail.com",
+        "postId": 2
+      },
+      {
+        "id": 6,
+        "body": "Bringing back memories of my last trip there! Beautiful place!",
+        "name":"Vera Hare",
+        "email":"verahare@gmail.com",
+        "postId": 3
       }
     ]
   }
