@@ -20,11 +20,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const Feed = () =>  {
+const FeedByUser = () =>  {
   const classes = useStyles();
   let history = useHistory();
   const [{ data, loading, error }, refetch] = useAxios(
-    `${baseURL}/posts`
+    `${baseURL}/users/1/posts`
   )
  
   if (loading) return <p>Loading...</p>
@@ -38,7 +38,7 @@ const Feed = () =>  {
           justifyContent="center"
           alignItems="center"
           spacing={3}>
-          <Grid item xs={8} onClick={()=>history.push(`/posts/${post.id}`)}>
+          <Grid item xs={8} onClick={()=>history.push(`/${post.userId}`)}>
             <Paper className={classes.paper} key={i}>
               <h4>{post.title}</h4>
             </Paper>
@@ -54,4 +54,4 @@ const Feed = () =>  {
 
 
 
-export default Feed
+export default FeedByUser

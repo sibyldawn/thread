@@ -1,5 +1,6 @@
 import './App.css';
 import Feed from './components/Feed'
+import FeedByUser from './components/FeedByUser'
 import Post from './components/Post'
 import Header from './components/Header'
 import {
@@ -14,12 +15,11 @@ const App = ()=> {
   return (
     <div className="App">
        <Header/>
-      <Router>
          <Switch>
              <Route exact path ="/" component={Feed}/>
-             <Route path="/:postId" component={Post}/>
+             <Route path="/posts/:postId" component={Post}/>
+             <Route path="/user/:userId" component={FeedByUser}/>
           </Switch>
-        </Router>
           </div>
   );
 }

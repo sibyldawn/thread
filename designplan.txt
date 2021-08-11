@@ -1,8 +1,8 @@
 MVP
 1. Use JSON Placeholder to have POSTS and COMMENTS.
 2. UI with a list of Posts with titles.
-3. When a post is click
-4. Then it navigates to a Detailed Page Title and Content
+3. When a post is clicked
+4. It navigates to a Detailed Page Title and Content
 5. From the detailed page, have the ability to go Back
 6. Under the detailed post, I should see comments.
 7. Each comment has to have a body,name, and email address.
