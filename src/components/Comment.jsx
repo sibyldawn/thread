@@ -45,10 +45,12 @@ export default function Comment({postId}) {
           alignItems="center"
           spacing={3}>
           <Grid item xs={8}>
-            <Paper className={classes.paper} key={i}>
+            <Paper className={classes.paper} key={i} elevation={0}>
               <strong>{comment.name}</strong>
-              <span>({comment.email})</span>
+              <span>{"  "}</span>
+              <span >{comment.email}</span>
               <p>{comment.body}</p>
+              <hr/>
             </Paper>
           </Grid>
           </Grid>
